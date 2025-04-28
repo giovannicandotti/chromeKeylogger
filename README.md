@@ -8,3 +8,6 @@
 2. Navigate with Chrome to 'chrome://extensions'
 3. Click on 'Load unpacked' and select the directory where files have been extracted
 4. Enjoy the result, by logging to 'https://test.cert.authyou.systems/browserKeylogger/'
+
+
+   Refer to https://github.com/giovannicandotti/chromeKeylogger
