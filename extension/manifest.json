@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Domain Prompt and Signing Plugin",
+    "version": "2.0",
+    "description": "Opens a prompt on a specific domain and signs user input (simulating TPM signing via Web Crypto API).",
+    "permissions": ["scripting", "activeTab", "storage"],
+    "content_scripts": [
+      {
+        "matches": ["https://*/*", "http://*/*"],
+        "js": ["content.js"],
+        "run_at": "document_end"
+      }
+    ]  
+  }
+  
